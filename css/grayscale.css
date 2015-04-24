@@ -45,7 +45,8 @@ p {
 }
 
 a {
-    color: #42dca3;
+    /*color: #42dca3;*/
+    color: #ffd60a;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -54,7 +55,8 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    /*color: #1d9b6c;*/
+    color: #ffd60a;
 }
 
 .badge {
@@ -65,7 +67,7 @@ a:focus {
 }
 
 .badge:hover {
-    border-color: white;
+    border-color: #ffd60a;
 }
 
 .light {
@@ -292,11 +294,11 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        /*padding-top: 250px;*/
     }
 
     .download-section {
-        padding: 100px 0;
+        padding: 75px 0;
     }
 
     #map {
@@ -316,17 +318,21 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    /*border: 1px solid #42dca3;*/
+    /*color: #42dca3;*/
+    border: 1px solid #ffd60a;
+    color: #ffd60a;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    /*border: 1px solid #42dca3;*/
+    border: 1px solid #ffd60a;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    /*background-color: #42dca3;*/
+    background-color: #ffd60a;
 }
 
 ul.banner-social-buttons {
